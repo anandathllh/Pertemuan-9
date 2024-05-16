@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Praktikum 9</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        h2,h6{color: purple;}
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script> 
+    $(document).ready(() => {
+      $('#img1').on('mouseover', () =>{
+        $('#img1').attr('height', '320')
+        $('#img1').attr('class', 'gambarzoom')
+      })
+      $('#img1').on('mouseleave', () =>{
+        $('#img1').attr('height', '220')
+        $('#img1').attr('class', 'gambar')
+      })
+
+      $('#img2').on('mouseover', () =>{
+        $('#img2').attr('height', '320')
+        $('#img2').attr('class', 'gambarzoom')
+      })
+      $('#img2').on('mouseleave', () =>{
+        $('#img2').attr('height', '220')
+        $('#img2').attr('class', 'gambar')
+      })
+
+      $('#img3').on('mouseover', () =>{
+        $('#img3').attr('height', '320')
+        $('#img3').attr('class', 'gambarzoom')
+      })
+      $('#img3').on('mouseleave', () =>{
+        $('#img3').attr('height', '220')
+        $('#img3').attr('class', 'gambar')
+      })
+
+      $('#img4').on('mouseover', () =>{
+        $('#img4').attr('height', '320')
+        $('#img4').attr('class', 'gambarzoom')
+      })
+      $('#img4').on('mouseleave', () =>{
+        $('#img4').attr('height', '220')
+        $('#img4').attr('class', 'gambar')
+      })
+
+      $('#img5').on('mouseover', () =>{
+        $('#img5').attr('height', '320')
+        $('#img5').attr('class', 'gambarzoom')
+      })
+      $('#img5').on('mouseleave', () =>{
+        $('#img5').attr('height', '220')
+        $('#img5').attr('class', 'gambar')
+      })
+
+      $('#img6').on('mouseover', () =>{
+        $('#img6').attr('height', '320')
+        $('#img6').attr('class', 'gambarzoom')
+      })
+      $('#img6').on('mouseleave', () =>{
+        $('#img6').attr('height', '220')
+        $('#img6').attr('class', 'gambar')
+      })
+    })
+    </script> 
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar bg-primary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand">Salma's Website</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="home.html">Home</a>
+        <a class="nav-link" href="profile.html">Profile</a>
+        <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+<br/>
+
+    <h2 align="center"><b>Our Menu</b></h2>
+        <h6 align="center"><p>Semua menu Chatime dibuat dengan menggunakan bahan-bahan pilihan terbaik untuk menghasilkan minuman yang menyegarkan dan menenangkan.</p></h6>
+        <div class="container mt-5">
+            <div class="row" align="center">
+              <div class="col-sm-4">
+                <img src="matcha-mousse.png" alt="..." height="220" id="img1">
+              </div>
+              <div class="col-sm-4">
+                <img src="brown-rice-genmaicha-tea.png" alt="..." height="220" id="img2">
+              </div>
+              <div class="col-sm-4">
+                <img src="chatime-roasted-tea.png" alt="..." height="220" id="img3">
+              </div>
+            </div>
+          </div>
+          <div class="container mt-5">
+            <div class="row" align="center">
+              <div class="col-sm-4">
+                <img src="chocolate-mousse.png" alt="..." height="220" id="img4">
+              </div>
+              <div class="col-sm-4">
+                <img src="green-tea-latte.png" alt="..." height="220" id="img5">
+              </div>
+              <div class="col-sm-4">
+                <img src="strawberry-smoothie.png" alt="..." height="220" id="img6">
+              </div>
+            </div>
+          </div>
+    <hr>
+          <footer align="center">Copyright &copy; 2023 </footer>
+</body>
+</html>
